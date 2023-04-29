@@ -1,0 +1,8 @@
+export default [
+  "Lorem ipsum dolor sit amet",
+  "Consectetur adipiscing elit",
+  "Curabitur tristique",
+  "Enim in condimentum posuere",
+  "Odio sem viverra elit",
+  "A feugiat purus quam vitae urna",
+];

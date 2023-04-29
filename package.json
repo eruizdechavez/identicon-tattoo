@@ -1,0 +1,11 @@
+{
+  "name": "identicon-tattoo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@dicebear/collection": "6.0.3",
+    "@dicebear/core": "6.0.3",
+    "@resvg/resvg-js": "2.4.1"
+  }
+}
