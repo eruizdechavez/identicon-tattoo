@@ -13,6 +13,21 @@
 
 If this is the first time using the repo, you need to build the image by executing `./build.sh`.
 
-The script assumes there is a data.mjs file with the strings to be used as seeds for the identicons. You can use the example file `data.mjs.example`.
+The script assumes there is a `data.mjs` file inside the `data` folder with the strings to be used as seeds for the identicons. You can use the example file `data.mjs.example` as an example (the example logo in this page was generated with those strings).
 
-To generate the image execute `./run.sh`; a `tattoo.png` file will be generated inside the `out` folder.
+To generate the image execute `./run.sh`; a `tattoo.png` file will be generated inside the `data` folder.
+
+### Customization
+
+There is some limited customization right now. You can change the number of columns and the border size using environment variables. To change the default values prepend the run command with the proper environment variable.
+
+Variable | Default
+--- | ---
+COLS | 2
+BORDER | 100
+
+**Example**
+
+```sh
+COLS=3 BORDER=20 ./run.sh
+```
