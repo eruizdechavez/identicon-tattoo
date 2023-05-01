@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-docker run --rm -it -v $PWD/out:/app/out -v $PWD/data.mjs:/app/data.mjs identicon-tattoo $@
+docker run --rm -it \
+  -e COLS=${COLS:-2} \
+  -e BORDER=${BORDER:-100} \
+  -v $PWD/data:/app/data \
+  identicon-tattoo $@

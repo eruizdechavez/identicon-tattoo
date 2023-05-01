@@ -1,6 +1,6 @@
 import { createAvatar } from "@dicebear/core";
 import { identicon } from "@dicebear/collection";
-import data from "./data.mjs";
+import data from "./data/data.mjs";
 
 const length = `${data.length}`.length;
 
